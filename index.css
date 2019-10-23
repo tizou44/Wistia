@@ -1,0 +1,85 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    border: ridge 1px grey;
+}
+li{list-style: none;}
+ul{
+    display:flex;
+    justify-content: space-between;
+
+    /* padding-right: 46%; */
+    width: 80%;
+    color: grey ;
+
+  
+}
+.lists{
+    /* margin-right: 10%; */
+    width: 47%;
+    border-right: ridge grey 1px ;
+    border-left: ridge grey 1px;
+    
+
+}
+.boutton{
+    display: flex;
+    width: 24%;
+    
+    
+}
+ .btn-header{
+    width: 60%;
+     height: 117px;
+ }
+ body{
+     margin: 0px;
+ }
+ 
+main{
+    display: flex;
+    justify-content: space-around;
+     background: #cf9ca5;
+    height: auto; 
+    
+ }
+.welcome{
+    align-self: center;
+}
+.btn-watch{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+}
+.blc1{
+    background:#fed24b ;
+    width: 33.33%;
+}
+.blc2{
+    background:#50c2a0 ;
+    width: 33.33%;
+}
+.blc3{
+    background: #3eaaf5;
+    width: 33.33%;
+}
+.tour3{
+    display:flex;
+}
+.phrase{
+   text-align: center;
+   
+   background-color: grey;
+}
+.final{
+    display:flex;
+    background: #2a2d36;
+}
+
+.final div ul {
+    display: flex;
+    flex-direction: column;
+    background: #2a2d36;
+}
+    
